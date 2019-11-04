@@ -1,1 +1,1 @@
-web: sudo service nginx restart bundle exec unicorn -c config/unicorn.rb
+web: service nginx restart bundle exec unicorn -c config/unicorn.rb
