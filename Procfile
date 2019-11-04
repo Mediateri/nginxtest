@@ -1,1 +1,1 @@
-web: service nginx restart bundle exec unicorn -c config/unicorn.rb
+web: nginx restart bundle exec unicorn -c config/unicorn.rb
